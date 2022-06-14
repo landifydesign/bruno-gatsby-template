@@ -28,7 +28,8 @@ const Header = () => {
                   duration={500}
                   key={item.name}
                   to={item.href}
-                  className="text-body-sm font-medium text-neutral-700 hover:text-primary-600 px-4">
+                  className="text-body-sm font-medium text-neutral-700 hover:text-primary-600 px-4 hover:cursor-pointer"
+                >
                   {item.name}
                 </Link>
               ))}
